@@ -10,10 +10,10 @@ const YouTubeComp = (props) => {
                 J4H4mulu9dVEb6UBkKhZH614b/ADWPplpRNYONvI5/UW3tsAwAPgFW/ME1lZpM1q1mq3sXKKs8hcAnuayEeK1jdbM33Q4rqejdWQoEdyrCMttg5/SPb3NcsgzVqIIqfSCkqY4ycXaOl1v8SQu1PWMZYdjMgn7j8UBtsHcM0ZIkDA/fAql0zTbAJ8ClHzjFaG5uXTp+r9NQo7oArAg5xiBgdveuWAEEj96JL1q79MpMjyeQOI+KFKKPJSimpBNxbtFyDvUmI5/rUA0Y7U27PFaEFhc/NTa+xAG6Ns7faTJj71nZ/amJpUAnOfPvWjR2N7qnk/t3qhrTATBjzGM+9Waa6UdWBiCPx96T5oa7s2dT0ItkFSdh4JxkcisqP2rs9Net3lDHacTtMbgTiY84oV1HogCl7Mkd17z7VhD2/wDMumsvP5jwCbqVVT7U1dBiVmnjuKVKmA9s+amGzSpUARZ6jSpUANSNKlQAxpU
                 qVACmmNKlQBGaeaVKgBjSApUqANI5A96l796VKkBS+aqU0qVMCy3GZFWo3alSoAk3FVuuOfmnpUgKlMGpLSpUwELZJx4J/FMWxSpUAMRToY+0f5pUqAO20TW2QCABtBYRxu8QK
                 5PqloJcZBwOPinpVyeH/dm3pxFFokZBIPsYrXb6zdC7d2Ijv+fmnpV1OEX0yTaBsnzSpUqYj//Z"/>
-            <p className="time">(props.time)</p>
+            <p className="time">{props.time}</p>
             </div>
-            <p className="title">(props.title)</p>
-            <p className="title">(props.desc)</p>
+            <p className="title">{props.title}</p>
+            <p className="desc">{props.desc}</p>
         </div>
     )
 }
@@ -21,7 +21,7 @@ const YouTubeComp = (props) => {
 YouTubeComp.defaultProps = {
     time: '00:00',
     title: 'Title Here',
-    title: 'xx view',
+    desc: 'xx view',
 }
 
 export default YouTubeComp;
